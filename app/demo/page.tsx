@@ -13,7 +13,7 @@ const fadeIn = {
 
 export default function DemoPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/5 dark:to-accent/10">
+    <div className="min-h-screen bg-linear-to-br from-background via-background to-accent/5 dark:to-accent/10">
       {/* Navigation */}
       <nav className="flex items-center gap-4 px-6 py-4 md:px-12 md:py-6 border-b border-border/50">
         <Link href="/">
