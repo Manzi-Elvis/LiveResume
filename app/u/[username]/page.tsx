@@ -97,7 +97,7 @@ export default function ResumePage({ params }: { params: { username: string } })
       >
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center flex-shrink-0">
+            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center shrink-0">
               <span className="text-white font-bold text-xs">AC</span>
             </div>
             <div className="hidden sm:block">
