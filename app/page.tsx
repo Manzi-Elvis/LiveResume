@@ -62,7 +62,7 @@ export default function HomePage() {
               View Demo
             </Button>
           </Link>
-          <Link href="/dashboard">
+          <Link href="/dashboard/editor">
             <Button size="sm">Get Started</Button>
           </Link>
         </div>
@@ -189,7 +189,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="relative z-10 border-t border-border/50 mt-20">
         <div className="max-w-6xl mx-auto px-6 md:px-12 py-12 text-center text-sm text-muted-foreground">
-          <p>© 2025 LiveResume. Built with modern web technologies.</p>
+          <p>© 2026 LiveResume. Built with modern web technologies.</p>
         </div>
       </footer>
     </div>
