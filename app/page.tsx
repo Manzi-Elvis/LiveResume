@@ -159,7 +159,7 @@ export default function HomePage() {
                 className="p-6 rounded-lg border border-border bg-card/50 hover:bg-card hover:border-accent/50 transition-all duration-300"
               >
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 h-12 w-12 rounded-lg bg-accent/10 dark:bg-accent/20 flex items-center justify-center text-accent">
+                  <div className="shrink-0 h-12 w-12 rounded-lg bg-accent/10 dark:bg-accent/20 flex items-center justify-center text-accent">
                     {feature.icon}
                   </div>
                   <div className="space-y-2">
