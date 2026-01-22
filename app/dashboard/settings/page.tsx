@@ -24,8 +24,8 @@ const itemVariants = {
 }
 
 export default function SettingsPage() {
-  const [email, setEmail] = useState('alex@example.com')
-  const [username, setUsername] = useState('alexchen')
+  const [email, setEmail] = useState('elvis@example.com')
+  const [username, setUsername] = useState('elvismanzi')
   const [copied, setCopied] = useState(false)
   const [saveSuccess, setSaveSuccess] = useState(false)
 
