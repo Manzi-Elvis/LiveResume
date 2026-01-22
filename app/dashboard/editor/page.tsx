@@ -21,10 +21,10 @@ interface ResumeData {
 
 export default function EditorPage() {
   const [resume, setResume] = useState<ResumeData>({
-    name: 'Alex Chen',
+    name: 'Elvis Manzi',
     role: 'Senior Full Stack Engineer',
     bio: 'Building beautiful, performant web experiences.',
-    email: 'alex@example.com',
+    email: 'elvis@example.com',
     github: 'https://github.com',
     linkedin: 'https://linkedin.com',
     skills: [
@@ -399,10 +399,10 @@ export default function EditorPage() {
             <div className="flex items-center justify-between">
               <span className="text-muted-foreground">Public URL</span>
               <a
-                href="/u/alexchen"
+                href="/u/elvismanzi"
                 className="text-accent hover:underline text-xs"
               >
-                /u/alexchen
+                /u/elvismanzi
               </a>
             </div>
           </div>
