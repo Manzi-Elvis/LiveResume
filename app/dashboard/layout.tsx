@@ -67,11 +67,11 @@ export default function DashboardLayout({
               className="w-full flex items-center gap-3 px-4 py-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors text-left"
             >
               <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center flex-shrink-0">
-                <span className="text-white font-bold text-xs">AC</span>
+                <span className="text-white font-bold text-xs">MRE</span>
               </div>
               <div className="flex-1 min-w-0">
-                <div className="font-medium text-sm">Alex Chen</div>
-                <div className="text-xs text-muted-foreground truncate">alex@example.com</div>
+                <div className="font-medium text-sm">Elvis Manzi</div>
+                <div className="text-xs text-muted-foreground truncate">elvis@example.com</div>
               </div>
               <ChevronDown className="h-4 w-4 flex-shrink-0" />
             </button>
@@ -86,7 +86,7 @@ export default function DashboardLayout({
                 <Link href="/dashboard/settings" className="block px-4 py-2 rounded hover:bg-secondary text-sm transition-colors">
                   Settings
                 </Link>
-                <a href="/u/alexchen" className="block px-4 py-2 rounded hover:bg-secondary text-sm transition-colors">
+                <a href="/u/elvismanzi" className="block px-4 py-2 rounded hover:bg-secondary text-sm transition-colors">
                   View Public Resume
                 </a>
                 <button className="w-full text-left px-4 py-2 rounded hover:bg-secondary text-sm transition-colors text-destructive">
@@ -132,7 +132,7 @@ export default function DashboardLayout({
           </button>
           <div className="flex-1 md:block hidden" />
           <div className="flex items-center gap-4">
-            <a href="/u/alexchen" target="_blank" rel="noopener noreferrer">
+            <a href="/u/elvismanzi" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="sm">
                 View Resume
               </Button>
