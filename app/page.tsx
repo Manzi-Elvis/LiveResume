@@ -22,7 +22,7 @@ const staggerContainer = {
 
 export default function HomePage() {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-background via-background to-accent/5 dark:to-accent/10">
+    <div className="relative min-h-screen overflow-hidden bg-linear-to-br from-background via-background to-accent/5 dark:to-accent/10">
       {/* Subtle animated background elements */}
       <div className="pointer-events-none fixed inset-0">
         <motion.div
