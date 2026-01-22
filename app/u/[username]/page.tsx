@@ -7,11 +7,11 @@ import { Github, Linkedin, Mail, ExternalLink, Calendar, MapPin } from 'lucide-r
 import { useState, useEffect } from 'react'
 
 const sampleResume = {
-  name: 'Alex Chen',
+  name: 'Elvis Manzi',
   role: 'Senior Full Stack Engineer',
   location: 'San Francisco, CA',
   bio: 'Building beautiful, performant web experiences. Coffee enthusiast and open-source contributor.',
-  email: 'alex@example.com',
+  email: 'elvis@example.com',
   github: 'https://github.com',
   linkedin: 'https://linkedin.com',
   skills: [
