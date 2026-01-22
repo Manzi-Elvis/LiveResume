@@ -189,7 +189,7 @@ export default function ResumePage({ params }: { params: { username: string } })
                   viewport={{ once: true }}
                 >
                   <motion.div
-                    className="h-full bg-gradient-to-r from-accent to-accent/80"
+                    className="h-full bg-linear-to-r from-accent to-accent/80"
                     initial={{ width: 0 }}
                     whileInView={{ width: `${skill.proficiency}%` }}
                     viewport={{ once: true }}
