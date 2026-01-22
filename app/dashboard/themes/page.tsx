@@ -264,7 +264,7 @@ export default function ThemesPage() {
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-semibold text-foreground">Live Preview</h2>
               <a
-                href="/u/alexchen"
+                href="/u/elvismanzi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm text-accent hover:text-accent/80 transition-colors"
@@ -277,7 +277,7 @@ export default function ThemesPage() {
               <div className="space-y-6 max-w-md">
                 {/* Preview Header */}
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-bold">Alex Chen</h1>
+                  <h1 className="text-3xl font-bold">Elvis Manzi</h1>
                   <p className="text-lg font-semibold" style={{ color: accentColor }}>
                     Senior Full Stack Engineer
                   </p>
