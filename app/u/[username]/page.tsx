@@ -91,7 +91,7 @@ export default function ResumePage({ params }: { params: { username: string } })
         transition={{ duration: 0.5 }}
         className={`sticky top-0 z-40 transition-all duration-300 ${
           scrolled
-            ? 'bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/20'
+            ? 'bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 border-b border-border/20'
             : 'bg-transparent'
         }`}
       >
