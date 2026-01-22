@@ -73,7 +73,7 @@ export default function DashboardLayout({
                 <div className="font-medium text-sm">Elvis Manzi</div>
                 <div className="text-xs text-muted-foreground truncate">elvis@example.com</div>
               </div>
-              <ChevronDown className="h-4 w-4 flex-shrink-0" />
+              <ChevronDown className="h-4 w-4 shrink-0" />
             </button>
 
             {userMenuOpen && (
