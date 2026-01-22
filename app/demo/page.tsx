@@ -111,7 +111,7 @@ export default function DemoPage() {
             <Link href="/dashboard">
               <Button size="lg">Create Your Resume</Button>
             </Link>
-            <Link href="/u/alexchen">
+            <Link href="/u/elvismanzi">
               <Button size="lg" variant="outline">
                 View Example Resume
               </Button>
