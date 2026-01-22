@@ -81,7 +81,7 @@ export default function HomePage() {
             <h1 className="text-5xl md:text-7xl font-bold text-balance leading-tight text-foreground">
               Your Resume.
               <br />
-              <span className="bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-accent to-accent/80 bg-clip-text text-transparent">
                 But Interactive.
               </span>
             </h1>
