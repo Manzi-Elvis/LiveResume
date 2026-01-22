@@ -83,7 +83,7 @@ export default function ResumePage({ params }: { params: { username: string } })
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-background/95">
+    <div className="min-h-screen bg-linear-to-br from-background to-background/95">
       {/* Sticky Header */}
       <motion.header
         initial={{ y: -100 }}
